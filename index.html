@@ -339,12 +339,10 @@ At Ann Holidays, we believe that travel is more than just visiting places; it’
                 </div>
             </div>
         </div>
-
-
-
         <!-- Contact End -->
 
 
+      
         <!-- Services Start -->
         <div class="container-fluid service overflow-hidden py-5">
             <div class="container">
@@ -520,11 +518,37 @@ At Ann Holidays, we believe that travel is more than just visiting places; it’
             </div>
         </div>
         <!-- Services End -->
+</section>
+<section>
+<h1>Responsive Image Gallery</h1>
+<div class="gallery">
+<div class="gallery-item"><img src="img/jata.jpg" alt="Image 1"></div>
+<div class="gallery-item"><img src="img/jata.jpg" alt="Image 2"></div>
+<div class="gallery-item"><img src="img/jata.jpg" alt="Image 3"></div>
+<div class="gallery-item"><img src="img/jata.jpg.jpg" alt="Image 4"></div>
+</div>
 
+    gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 10px;
+max-width: 900px;
+margin: auto;
+}
 
+gallery-item {
+overflow: hidden;
+border-radius: 10px;
+}
 
+gallery-item img {
+width: 100%;
+height: auto;
+display: block;
+}
 </section>
 
+        
 <!-----------------Testing-------------!>
 
       <!-- Testimonial Start -->
